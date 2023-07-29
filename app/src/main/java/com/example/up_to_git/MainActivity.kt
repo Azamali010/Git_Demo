@@ -9,7 +9,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        getData();
+        getData()
+        adsData()
+    }
+
+    private fun adsData() {
+        Toast.makeText(this,"HII Git",Toast.LENGTH_SHORT).show()
     }
 
     private fun getData() {
