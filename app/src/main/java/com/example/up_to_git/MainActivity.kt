@@ -11,6 +11,11 @@ class MainActivity : AppCompatActivity() {
 
         getData()
         adsData()
+        AddNumber()
+    }
+
+    private fun AddNumber() {
+      Toast.makeText(this,"Sum Of Number ", Toast.LENGTH_SHORT).show()
     }
 
     private fun adsData() {
